@@ -313,6 +313,7 @@ h7{
     height: 220px;
     overflow: hidden;
     display: inline-block;
+
 }
 .photolist{
     margin-left: 40px;
@@ -391,3 +392,18 @@ margin-top: -80px;
    margin-left: 397px;
    height: 70px;
 }
+
+@media(max-width: 1125px){
+  .photolist{
+    flex-wrap: wrap;
+}
+@media(max-width: 1024px){
+  .image-section{
+    flex-wrap: wrap;
+
+  }
+
+/*.up{
+  width: 360px;
+    height: 220px;
+}*/
