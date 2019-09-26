@@ -260,9 +260,9 @@ h7{
 .black-area{
     position: absolute;
     width: 100%;
-    height: 750px;
+  /*  height: 750px;
     background: #000000;
-    /*opacity: 0.95;*/
+*/    /*opacity: 0.95;*/
     
 }
 .black-sector{
@@ -391,6 +391,11 @@ margin-top: 80px;
    margin-top: 20px;
    margin-left: 397px;
    height: 70px;
+}
+.bg-dark{
+  
+    background: #000000;
+
 }
 
 @media(max-width: 1125px){
